@@ -7,7 +7,7 @@ var app = express();
 app.set('view engine', 'ejs');
 
 //static files
-app.use('/assets', express.static('Public/assets'));
+app.use('/assets', express.static('assets'));
 
 //fire controllers
 todoController(app);
